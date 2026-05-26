@@ -12,6 +12,8 @@ Use the uploaded room photo as the source image.
 - Keep walls, windows, and room structure consistent.
 - Redesign furniture, colors, decor, lighting, and atmosphere.
 - Make the result look premium, realistic, and professionally staged.
+- Also return structured metadata for listing copy, ROI notes, budget estimate,
+  and shop-the-look product suggestions when the backend integration is added.
 `;
 
 export async function generateInteriorDesigns(imageFile: File): Promise<GeneratedDesign[]> {
