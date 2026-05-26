@@ -34,8 +34,6 @@ jobs:
         run: npm ci
 
       - name: Build
-        env:
-          VITE_BASE_PATH: /Deco_Room_1/
         run: npm run build
 
       - name: Upload Pages artifact
